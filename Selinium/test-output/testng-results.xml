@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-29T20:22:40 IST" name="Default suite" finished-at="2022-03-29T20:23:00 IST" duration-ms="20308">
+    <groups>
+    </groups>
+    <test started-at="2022-03-29T20:22:40 IST" name="Default test" finished-at="2022-03-29T20:23:00 IST" duration-ms="20308">
+      <class name="POM_DDF_TestNG_Base_Utulityclass_failedTC_screenshot.kitelogintest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:POM_DDF_TestNG_Base_Utulityclass_failedTC_screenshot.kitelogintest@41fbdac4]" started-at="2022-03-29T20:22:40 IST" name="openBrowser" finished-at="2022-03-29T20:22:47 IST" duration-ms="7555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="logintoApp()[pri:0, instance:POM_DDF_TestNG_Base_Utulityclass_failedTC_screenshot.kitelogintest@41fbdac4]" started-at="2022-03-29T20:22:47 IST" name="logintoApp" finished-at="2022-03-29T20:22:51 IST" duration-ms="4000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoApp -->
+        <test-method signature="verifyuserID()[pri:0, instance:POM_DDF_TestNG_Base_Utulityclass_failedTC_screenshot.kitelogintest@41fbdac4]" started-at="2022-03-29T20:22:51 IST" name="verifyuserID" finished-at="2022-03-29T20:22:55 IST" duration-ms="3539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyuserID -->
+        <test-method is-config="true" signature="logoufromApp(org.testng.ITestResult)[pri:0, instance:POM_DDF_TestNG_Base_Utulityclass_failedTC_screenshot.kitelogintest@41fbdac4]" started-at="2022-03-29T20:22:55 IST" name="logoufromApp" finished-at="2022-03-29T20:22:55 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyuserID status=SUCCESS method=kitelogintest.verifyuserID()[pri:0, instance:POM_DDF_TestNG_Base_Utulityclass_failedTC_screenshot.kitelogintest@41fbdac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoufromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:POM_DDF_TestNG_Base_Utulityclass_failedTC_screenshot.kitelogintest@41fbdac4]" started-at="2022-03-29T20:22:55 IST" name="closeBrowser" finished-at="2022-03-29T20:23:00 IST" duration-ms="5136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- POM_DDF_TestNG_Base_Utulityclass_failedTC_screenshot.kitelogintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
